@@ -1,0 +1,95 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding-top: 70px;
+}
+.portafolio{
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+header{
+    height: 50rem;
+}
+h1{
+    margin:0;
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 7rem;
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+}
+
+.sub-titulo{
+    height: 30rem;
+}
+#about{
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+#sobre-mi{
+    border-left: solid 3px black;
+    padding-left: 4rem;
+}
+.titular{
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 4rem;
+}
+
+.titulos-proyectos{
+    border-bottom: solid 1px black;
+    margin-block: 1rem;
+    padding-bottom: 1rem;
+}
+.titulos-proyectos h4{
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+.links{
+    text-align: right;
+    display: block;
+    font-family:'Cormorant', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.proyectos{
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+    border-bottom: solid 3px black;
+}
+
+#seccion-proyectos{
+    margin-block: 25rem;
+}
+
+footer{
+    height: 20rem;
+}
+#contacto{
+    border-right: solid 3px black;
+    padding-right: 4rem;
+}
+.left{
+    text-align: left;
+    margin-left: 4rem;
+}
+.margin-r{
+    margin-right: 4rem;
+}
+
