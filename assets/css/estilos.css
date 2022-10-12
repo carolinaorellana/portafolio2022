@@ -30,8 +30,9 @@ h1{
     height: 30rem;
 }
 #about{
-    margin-top: 10rem;
-    margin-bottom: 15rem;
+    min-height: 100%;
+    /* margin-top: 10rem;
+    margin-bottom: 15rem; */
 }
 #sobre-mi{
     border-left: solid 3px black;
@@ -75,7 +76,7 @@ h1{
 }
 
 #seccion-proyectos{
-    margin-block: 25rem;
+    margin-block: 20rem;
 }
 
 footer{
@@ -93,3 +94,6 @@ footer{
     margin-right: 4rem;
 }
 
+.contenedor{
+    padding-top:15rem;
+}
