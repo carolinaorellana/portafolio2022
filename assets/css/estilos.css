@@ -4,6 +4,7 @@
 
 body{
     padding-top: 70px;
+    background-image: radial-gradient(circle at 14.64% -11.24%, #d8f6fb 0, #d9f6fd 3.33%, #daf5ff 6.67%, #dbf5ff 10%, #def4ff 13.33%, #e0f3ff 16.67%, #e3f2ff 20%, #e6f1ff 23.33%, #e9f1ff 26.67%, #ecf0ff 30%, #f0efff 33.33%, #f3eeff 36.67%, #f6edff 40%, #faecfe 43.33%, #fcecfc 46.67%, #ffebfa 50%, #ffebf7 53.33%, #ffeaf5 56.67%, #ffeaf2 60%, #ffeaef 63.33%, #ffeaec 66.67%, #ffeaea 70%, #ffeae7 73.33%, #ffebe5 76.67%, #ffebe3 80%, #ffece1 83.33%, #ffeddf 86.67%, #ffedde 90%, #feeedd 93.33%, #fbefdd 96.67%, #f8f0dc 100%);
 }
 .portafolio{
     font-family: 'Cormorant', serif;
@@ -67,6 +68,9 @@ h1{
     font-weight: 700;
     font-size: 1.2rem;
     color: black;
+}
+.links:hover{
+    color: rgb(0, 0, 0, 0.4);
 }
 
 .proyectos{
