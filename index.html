@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!--Font awesome (iconos)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/estilos.css">
     <!--Fonts-->
@@ -16,28 +25,26 @@
         href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <!--Animated-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Carolina Orellana</title>
 </head>
+
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg  navbar-dark ">
         <div class="container">
             <div>
-                <h2 class="portafolio text-white">Portafolio</h2>                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <h3 class="text-white"><a class="nav-link text-nav" href="#inicio">Carolina Orellana </a></h3>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     <li class="nav-item me-3">
-                        <a class="nav-link text-nav" aria-current="page" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link text-nav" href="#about" >Sobre mí</a>
+                        <a class="nav-link text-nav" href="#about">Sobre mí</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link text-nav" href="#seccion-proyectos">Proyectos</a>
@@ -49,57 +56,139 @@
             </div>
         </div>
     </nav>
-    <main class="container">
-        <header id="inicio" class="row align-items-center ">
+    <main class="container my-4">
+        <header id="inicio" class="row align-items-center my-4">
             <div>
-                <h1 class="text-center  animate__animated animate__fadeIn">Carolina Orellana</h1>
-                <p class="text-center color-purple animate__animated animate__fadeIn">DISEÑADORA UX/UI  |  FULL STACK DEVELOPER</p>
+                <div class="titulo-dinamico">
+                    <h1>
+                        <div class="lista">
+                            <div class="item">
+                                Hola!
+                            </div>
+                            <div class="item">
+                                Hello!
+                            </div>
+                            <div class="item">
+                                你好!
+                            </div>
+                        </div>
+                    </h1>
+                </div>
+                <div class="text-center">
+                    <h2 class="my-4">Soy Carolina Orellana</h2>
+                    <div class="profesion gap-3">
+                        <div class="pill-profesion gap-3">
+                            <i class="fa-solid fa-palette"></i>
+                            <h3> Diseñadora UX/UI </h3>
+                        </div>
+                        <div class="pill-profesion gap-3">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Full Stack Developer</h3>
+                        </div>
+
+                    </div>
+                    <div class="cargo">
+                        <div class="pill-cargo">
+                            <h4>Cargo actual: Diseñadora UX/UI en Dalt Applications</h4>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
+
+
         </header>
         <section>
+            
             <div id="about" class="contenedor">
-                <article class="row align-items-center p-4 ">
-                    <div class="col-3">
-                        <h2 class="titular font-cormorant">Sobre mí</h2>
+                <h2 class="titular font-cormorant text-center mb-5">Sobre mí</h2>
+                <article class="about row align-items-center p-4">
+                    <div class="col-3 row align-items-center">
+                        <img id = "foto-perfil"src="./assets/img/foto.jpg" alt="foto-perfil">
+                        
                     </div>
-                    <div id="sobre-mi" class="col-9 pe-4">
-                        <p>Soy Diseñadora Integral titulada de la Pontificia Universidad Católica de Chile, con enfoque multidisciplinario. Hoy me encuentro certificada en el área Diseño UX/UI por Desafío Latam.</p>
-                        <p>Cuento con fuertes nociones sobre desarrollo web en HTML, CSS y JavaScript. Acabo de finalizar mis estudios en Coding Dojo, al aprobar el Bootcamp en desarrollo Full Stack con Python. Actualmente he comenzando la carrera Certified Tech Developer de la mano de Digital House.</p>
-                        <p class="mb-0">Tengo la motivación y disciplina para seguir profundizando mis conocimientos en el desarrollo web y programación, así potenciar esta área con mis habilidades en el diseño de experiencia de usuario y diseño de interfaces.</p>
+                    <div id="sobre-mi" class="col-9 ">
+                        <div class="row align-items-center mb-2">
+                            <i class="fa-solid fa-palette col-2 fa-3x text-center color-icon"></i>
+                            <p class="col-9">Soy Diseñadora Integral titulada de la Pontificia Universidad Católica de Chile, con enfoque
+                            multidisciplinario. Hoy me encuentro certificada en el área Diseño UX/UI por Desafío Latam.
+                            </p>
+                        </div>
+                        <div class="row align-items-center mb-2">
+                            <i class="fa-solid fa-code col-2 fa-3x text-center color-icon"></i>
+                            <p class="col-9">Cuento con fuertes nociones sobre desarrollo web en HTML, CSS y JavaScript. Acabo de
+                            finalizar mis estudios en Coding Dojo, al aprobar el Bootcamp en desarrollo Full Stack con
+                            Python. Actualmente he comenzando la carrera Certified Tech Developer de la mano de Digital
+                            House.</p>
+                        </div>
+                        <div class="row align-items-center">
+                            <i class="fa-solid fa-wand-magic-sparkles  col-2 fa-3x text-center color-icon"></i>
+                            <p class="col-9 mb-0">Tengo la motivación y disciplina para seguir profundizando mis conocimientos en
+                            el desarrollo web y programación, así potenciar esta área con mis habilidades en el diseño
+                            de experiencia de usuario y diseño de interfaces.</p>
+                        </div>
+                        
                     </div>
                 </article>
             </div>
             <div class="contenedor" id="seccion-proyectos">
                 <article>
                     <div class="proyectos row align-items-center">
-                        <h2 class="text-center titular">Proyectos</h2>
+                        <h3 class="text-center titular">Proyectos</h3>
                     </div>
-                    <div class="row">
-                        <div class="col-4 p-4 mb-4">
-                            <div class="titulos-proyectos">
-                                <h4> Diseño UX / UI</h4>
+                    <div class=" p-4 mb-4">
+                        <div class="titulos-proyectos">
+                            <h4> Diseño UX / UI</h4>
+                        </div>
+
+                        <!-- <p>Trabajos realizados en la Academía Desafío Latam, relacionados al análisis y rediseño de Experiencia de Usuario de su sitio web actual.Herramienta de prototitipado: <b>FIGMA</b></p> -->
+                        <div class="row">
+                            <div class="hov-card blur-card col-4">
+                                <a class="links text-center mb-2"
+                                    href="https://www.behance.net/gallery/148770895/Prueba-Modulo-UX-Desafio-Latam"
+                                    target="_blank">DL -
+                                    Experiencia de Usuario</a>
+                                <img src="./assets/img/ux-ui-uno.png" class="w-100 mb-4" alt="proyecto ux">
                             </div>
-                            <div>
-                                <p>Trabajos realizados en la Academía Desafío Latam, relacionados al análisis y rediseño de Experiencia de Usuario de su sitio web actual.Herramienta de prototitipado: <b>FIGMA</b></p>
-                                <a class="links" href="https://www.behance.net/gallery/148770895/Prueba-Modulo-UX-Desafio-Latam" target="_blank">
-                                    DL - Experiencia de Usuario
-                                </a>
-                                <a class="links" href="https://www.behance.net/gallery/153884663/Prueba-Modulo-UI-Desafio-Latam" target="_blank"> DL - Interfaz de Usuario
-                                </a>
+                            <div class="col-4">
+                                <a class="links text-center mb-2"
+                                    href="https://www.behance.net/gallery/153884663/Prueba-Modulo-UI-Desafio-Latam"
+                                    target="_blank"> DL -
+                                    Interfaz de Usuario</a>
+                                <img src="./assets/img/ux-ui-dos.png" class="w-100 mb-4 " alt="proyecto ui">
+                            </div>
+                            <div class="col-4">
+                                <a class="links text-center mb-2"
+                                    href="https://www.behance.net/gallery/160819891/LOVE-MY-WALLET-Proyecto-UXUI-Desafio-Latam"
+                                    target="_blank">
+                                    DL - Interfaz de Usuario</a>
+                                <img src="./assets/img/ux-ui-tres.png" class="w-100 mb-4" alt="proyecto ux-ui">
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <!--DISEÑO UX / UI -->
+
                         <div class="col-4 p-4 mb-4">
                             <div class="titulos-proyectos">
                                 <h4> Maquetas Front End</h4>
                             </div>
                             <div>
-                                <p>Proyectos para Introducción al Desarrollo Web - Desafío Latam y Fundamentos de la Web - Coding Dojo, donde se buscaba replicar una página web. Herramientas utilizadas: <b>HTML, CSS, JavaScript. </b></p>
-                                <a class="links" href="https://carolinaorellana.github.io/Pruebamodulo1/" target="_blank">
+                                <p>Proyectos para Introducción al Desarrollo Web - Desafío Latam y Fundamentos de la Web
+                                    - Coding Dojo, donde se buscaba replicar una página web. Herramientas utilizadas:
+                                    <b>HTML, CSS, JavaScript. </b>
+                                </p>
+                                <a class="links" href="https://carolinaorellana.github.io/Pruebamodulo1/"
+                                    target="_blank">
                                     Examen Desafío Latam
                                 </a>
-                                <a class="links" href="https://carolinaorellana.github.io/Dojo-Fundamentos-Web-Examen/" target="_blank"> Examen Coding Dojo
+                                <a class="links" href="https://carolinaorellana.github.io/Dojo-Fundamentos-Web-Examen/"
+                                    target="_blank"> Examen Coding Dojo
                                 </a>
-                                <a class="links" href="https://carolinaorellana.github.io/front_i_digital_house/root/">Examen Front I Digital House</a>
+                                <a class="links"
+                                    href="https://carolinaorellana.github.io/front_i_digital_house/root/">Examen Front I
+                                    Digital House</a>
                             </div>
                         </div>
                         <div class="col-4 p-4 mb-4">
@@ -107,24 +196,36 @@
                                 <h4> Ejercicios JavaScript</h4>
                             </div>
                             <div>
-                                <p>Algunas de las entregas para Fundamentos de la Web - Coding Dojo, en donde se utiliza  HTML y CSS en copnjunto con <b>JavaScript</b> en funciones básicas de interacción.</p>
-                                <a class="links" href="https://carolinaorellana.github.io/tiempo-dojo/" target="_blank">Tiempo-Dojo</a>
-                                <a class="links" href="https://carolinaorellana.github.io/calculadora/" target="_blank">Calculadora Básica</a>
-                                <a class="links" href="https://carolinaorellana.github.io/Me-gusta-coding-dojo/" target="_blank">Dar "likes"</a>
+                                <p>Algunas de las entregas para Fundamentos de la Web - Coding Dojo, en donde se utiliza
+                                    HTML y CSS en copnjunto con <b>JavaScript</b> en funciones básicas de interacción.
+                                </p>
+                                <a class="links" href="https://carolinaorellana.github.io/tiempo-dojo/"
+                                    target="_blank">Tiempo-Dojo</a>
+                                <a class="links" href="https://carolinaorellana.github.io/calculadora/"
+                                    target="_blank">Calculadora Básica</a>
+                                <a class="links" href="https://carolinaorellana.github.io/Me-gusta-coding-dojo/"
+                                    target="_blank">Dar "likes"</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="row">
                         <div class="col-4 p-4 mb-4">
                             <div class="titulos-proyectos">
                                 <h4>Ejercicios Python</h4>
                             </div>
                             <div>
-                                <p>Trabajos en GitHub realizados para el track de especialización en <b> Python-Full Stack</b> basados en programación fundamental, programación orientada a objetos, manipulación de Bases de datos en ambientes virtuales con Flask, próximamente en despliegue en la web!</p>
-                                <a class="links" href="https://github.com/carolinaorellana/usuarios_crud" target="_blank">Usuarios - Consultas CRUD</a>
-                                <a class="links" href="https://github.com/carolinaorellana/dojos_y_ninjas" target="_blank"> Dojos y Ninjas - Relacion Uno a Muchos</a>
-                                <a class="links" href="https://github.com/carolinaorellana/registro_iniciosesion_py_regex_validacion" target="_blank">Validaciones en formularios</a>
+                                <p>Trabajos en GitHub realizados para el track de especialización en <b> Python-Full
+                                        Stack</b> basados en programación fundamental, programación orientada a objetos,
+                                    manipulación de Bases de datos en ambientes virtuales con Flask, próximamente en
+                                    despliegue en la web!</p>
+                                <a class="links" href="https://github.com/carolinaorellana/usuarios_crud"
+                                    target="_blank">Usuarios - Consultas CRUD</a>
+                                <a class="links" href="https://github.com/carolinaorellana/dojos_y_ninjas"
+                                    target="_blank"> Dojos y Ninjas - Relacion Uno a Muchos</a>
+                                <a class="links"
+                                    href="https://github.com/carolinaorellana/registro_iniciosesion_py_regex_validacion"
+                                    target="_blank">Validaciones en formularios</a>
                             </div>
                         </div>
                         <!-- <div class="col-4 p-4 mb-4">
@@ -143,7 +244,7 @@
                     </div>
                 </article>
             </div>
-            
+
         </section>
         <footer>
             <div class="row align-items-center p-4 ">
@@ -151,7 +252,9 @@
                     <a class="links margin-r" href="https://www.linkedin.com/in/cnorellanam">Linkedin</a>
                     <a class="links margin-r" href="https://github.com/carolinaorellana" target="_blank"> GitHub</a>
                     <a class="links margin-r" href="https://www.behance.net/cnorellanam" target="_blank"> Behance</a>
-                    <a class="links margin-r" href="https://drive.google.com/file/d/1lxIraov2KM4lj-pyqbv_dxQcgt1BGsJc/view?usp=sharing" target="_blank">CV</a>
+                    <a class="links margin-r"
+                        href="https://drive.google.com/file/d/1lxIraov2KM4lj-pyqbv_dxQcgt1BGsJc/view?usp=sharing"
+                        target="_blank">CV</a>
                 </div>
                 <div class="col-6">
                     <h2 class="titular left font-cormorant">Contacto</h2>
@@ -161,7 +264,12 @@
         </footer>
     </main>
     <!--Link bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
